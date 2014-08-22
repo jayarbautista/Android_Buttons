@@ -39,11 +39,11 @@ public class SimpleButtonActivity extends ActionBarActivity {
 			switch(v.getId()) {
 			case(R.id.ok_button):
 				Log.d(TAG, "Clicked: OK button");
-				mText.setText("Button OK was clicked.");
+				mText.setText("OK: Hello World.");
 				break;
 			case(R.id.cancel_button):
 				Log.d(TAG, "Clicked: Cancel button");
-				mText.setText("Button Cancel was clicked.");
+				mText.setText("Cancel: Hello World.");
 				break;
 			}
 
